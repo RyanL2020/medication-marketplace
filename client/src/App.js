@@ -44,6 +44,39 @@ function App() {
       <button> Regiser Now </button>
       <button> Log In </button>
       </div>
+
+      <div class="container-3">
+    <h1> How to Use Online Pharmacy</h1>
+    <div class="container-image-3a">
+          
+        <img class="image-1"  src="images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" alt="typing on laptop" />
+        <p>     
+        Browes our selection of medications
+
+        </p>
+        
+        <div class="">
+       
+            <img  src="images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" alt="typing on laptop" />
+                
+            <p>    
+                Add it to your cart  
+            </p>
+          
+        
+        </div>
+    </div>
+    <div class="container-image-3b">
+       
+        <img  class="image-2" src="images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" alt="typing on laptop" />
+            
+        <p>    
+            Check out!  
+        </p>
+      
+    
+    </div>
+   </div>
     </body>
   );
 }
