@@ -27,6 +27,23 @@ function App() {
     {/* <!-- <div class="image-container-1"> --> */}
         <img class="middle-container-pic" src="images/olga-delawrence-b9CaYHNfmho-unsplash.jpg" alt="pill bottles" /> 
     </div>
+
+    <div>   
+        <button> Get Started </button>
+        <button> Log In </button>
+    </div>
+
+    <hr></hr>
+
+      <div class="container-2">      
+      <h1> Who can use Online Pharmacy?</h1>
+      <p> Anyone can use the Online Pharmacy.</p>
+      <p> Browes our many over the counter medications or need to fill a perscriptio.</p> 
+      <p> Register now and get started!</p>
+      
+      <button> Regiser Now </button>
+      <button> Log In </button>
+      </div>
     </body>
   );
 }
