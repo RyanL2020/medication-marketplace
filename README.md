@@ -22,3 +22,29 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+what am I going todo today?
+
+I want to set up my models users, shopping cart, drugs 
+
+I want to seed databases 
+
+I want to set up navbar 
+
+I want to style navbar 
+
+I want to do a 'get' Fetch Drugs
+
+I want to do a list of drugs in navbar 
+
+I want to do a search bar for drugs
+
+I want to do search scope for drugs search by  name, type, brand 
+
+
+
+
+
+
+
+
+
