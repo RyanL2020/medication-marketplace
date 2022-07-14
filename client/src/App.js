@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
         <body>  
       <ul>
       
-        <li><a href="news.asp">Search</a></li>
+        <li><a href="search.asp">Search</a></li>
         <li><a href="contact.asp">List of Medications</a></li>
         <li><a href="about.asp">Shopping Cart</a></li>
       </ul>
@@ -25,7 +25,7 @@ function App() {
     
     {/* <!-- </ul> --></div> */}
     {/* <!-- <div class="image-container-1"> --> */}
-        <img class="middle-container-pic" src="images/olga-delawrence-b9CaYHNfmho-unsplash.jpg" alt="pill bottles" /> 
+        <img class="middle-container-pic" src="" alt="pill bottles" /> 
     </div>
 
     <div>   
@@ -49,7 +49,7 @@ function App() {
     <h1> How to Use Online Pharmacy</h1>
     <div class="container-image-3a">
           
-        <img class="image-1"  src="images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" alt="typing on laptop" />
+        <img class="image-1"  src="" alt="typing on laptop" />
         <p>     
         Browes our selection of medications
 
@@ -57,7 +57,7 @@ function App() {
         
         <div class="">
        
-            <img  src="images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" alt="typing on laptop" />
+            <img  src="" alt="typing on laptop" />
                 
             <p>    
                 Add it to your cart  
@@ -68,7 +68,7 @@ function App() {
     </div>
     <div class="container-image-3b">
        
-        <img  class="image-2" src="images/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg" alt="typing on laptop" />
+        <img  class="image-2" src="" alt="typing on laptop" />
             
         <p>    
             Check out!  
