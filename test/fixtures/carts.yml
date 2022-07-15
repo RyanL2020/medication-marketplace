@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shipping_address: MyText
+  shipping_cost: 9.99
+  quantity: 9.99
+  total: 9.99
+  payment_method: MyString
+  card_number: 1
+
+two:
+  shipping_address: MyText
+  shipping_cost: 9.99
+  quantity: 9.99
+  total: 9.99
+  payment_method: MyString
+  card_number: 1
