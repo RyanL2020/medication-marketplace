@@ -3,13 +3,14 @@ import './App.css';
 
 function App() {
   return (
+    
         <body>  
-      <ul>
+      {/* <ul>
       
         <li><a href="search.asp">Search</a></li>
         <li><a href="contact.asp">List of Medications</a></li>
         <li><a href="about.asp">Shopping Cart</a></li>
-      </ul>
+      </ul> */}
     <div class="container-1">      
     <h1> Online Pharmacy</h1>
     <p> Welcome to the online Pharmacy!</p>
