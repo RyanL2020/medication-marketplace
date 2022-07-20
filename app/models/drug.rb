@@ -1,3 +1,3 @@
 class Drug < ApplicationRecord
-    has_and_belongs_to_many: shopping_cart
+    has_and_belongs_to_many :carts
 end 

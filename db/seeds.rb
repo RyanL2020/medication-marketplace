@@ -7,21 +7,23 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.destroy_all
 Drug.destroy_all
-Cart.destroy_all
+# Cart.destroy_all
 
 2.times do
     User.create(first_name: Faker::Name.first_name, 
     last_name: Faker::Name.last_name,
-    username: Faker::Name.initials,
-    password: "password")
+    address: "123 springfield ave",
+    password_digest: "password")
 end 
 
 24.times do 
     Drug.create(
     brand_name: Faker::Space.star,
     generic_name: Faker::Space.nebula,
-    quantity: 10
-    description: "Lorem ipsum"
+    quantity: 10,
+    description: "Lorem ipsum",
     price: 1.00
     )
 end
+
+puts "You got seeds!"
