@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :drug_carts
   resources :carts
   resources :drugs
   resources :users

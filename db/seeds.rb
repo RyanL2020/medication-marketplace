@@ -18,10 +18,10 @@ end
 
 24.times do 
     Drug.create(
-    brand_name: Faker::Space.star,
-    generic_name: Faker::Space.nebula,
+    brand_name: Faker::Name.first_name,
+    generic_name: "asprin",
     quantity: 10,
-    description: "Lorem ipsum",
+    description: "Cureall",
     price: 1.00
     )
 end

@@ -7,7 +7,7 @@ class CreateCarts < ActiveRecord::Migration[6.1]
       t.decimal :total
       t.string :payment_method
       t.integer :card_number
-
+      t.integer :user_id
       t.timestamps
     end
   end
