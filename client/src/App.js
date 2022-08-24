@@ -1,6 +1,6 @@
 
 import './App.css';
-
+import ButtonComponent from './ButtonComponent';
 function App() {
   return (
     
@@ -26,12 +26,11 @@ function App() {
     
     {/* <!-- </ul> --></div> */}
     {/* <!-- <div class="image-container-1"> --> */}
-        <img class="middle-container-pic" src="" alt="pill bottles" /> 
+       <ButtonComponent />
     </div>
 
     <div>   
-        <button> Get Started </button>
-        <button> Log In </button>
+       
     </div>
 
     <hr></hr>
@@ -42,15 +41,14 @@ function App() {
       <p> Browes our many over the counter medications or need to fill a perscriptio.</p> 
       <p> Register now and get started!</p>
       
-      <button> Regiser Now </button>
-      <button> Log In </button>
+      
       </div>
 
       <div class="container-3">
     <h1> How to Use Online Pharmacy</h1>
     <div class="container-image-3a">
           
-        <img class="image-1"  src="" alt="typing on laptop" />
+       
         <p>     
         Browes our selection of medications
 
@@ -58,7 +56,7 @@ function App() {
         
         <div class="">
        
-            <img  src="" alt="typing on laptop" />
+            
                 
             <p>    
                 Add it to your cart  
@@ -69,7 +67,7 @@ function App() {
     </div>
     <div class="container-image-3b">
        
-        <img  class="image-2" src="" alt="typing on laptop" />
+       
             
         <p>    
             Check out!  
