@@ -1,9 +1,4 @@
-import * as React from "react";
-
-//signup 
-//log in
-//browes drugs
-
+import * as React from "react"
 
 
 function ButtonComponent() {
@@ -13,10 +8,10 @@ function ButtonComponent() {
     }
     return( 
         <div>     
-    <button type= "button" onclick={handleClick}>
-         Click Me !
-    </button>
-    {count}
+        <button type= "button" onClick={handleClick}>
+            Click Me !
+        </button>
+            {count}
         </div>
     
     );
