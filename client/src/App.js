@@ -1,5 +1,6 @@
 
 import './App.css';
+import TopPageComponent from './TopPageComponent';
 import ButtonComponent from './ButtonComponent';
 function App() {
   return (
@@ -11,12 +12,7 @@ function App() {
         <li><a href="contact.asp">List of Medications</a></li>
         <li><a href="about.asp">Shopping Cart</a></li>
       </ul> */}
-    <div class="container-1">      
-    <h1> Online Pharmacy</h1>
-    <p> Welcome to the online Pharmacy!</p>
-    <p>Where you can browse and purchase your medications online </p>     
-    <p>from the comfort of your own home</p> 
-    </div>
+    <TopPageComponent />
 
     <div class="container-1-list" >   
     {/* <!-- <ul> --> */}
