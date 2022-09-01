@@ -1,6 +1,7 @@
 
 import './App.css';
 import TopPageComponent from './TopPageComponent';
+import MiddlePageComponent from './MiddlePageComponent';
 import ButtonComponent from './ButtonComponent';
 function App() {
   return (
@@ -13,17 +14,9 @@ function App() {
         <li><a href="about.asp">Shopping Cart</a></li>
       </ul> */}
     <TopPageComponent />
-
-    <div class="container-1-list" >   
-    {/* <!-- <ul> --> */}
-        <li>Get your medication safe and secure</li>
-        <li> Order ships same day order is placed</li>
-        <li> Great customer service 24/7 </li>
-    
-    {/* <!-- </ul> --></div> */}
-    {/* <!-- <div class="image-container-1"> --> */}
-       <ButtonComponent />
-    </div>
+    <MiddlePageComponent />
+    <ButtonComponent />
+   
 
     <div>   
        
