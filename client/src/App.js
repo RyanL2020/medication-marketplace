@@ -10,12 +10,7 @@ function App() {
   return (
     
        <body>    
-      {/* <ul>
-      
-        <li><a href="search.asp">Search</a></li>
-        <li><a href="contact.asp">List of Medications</a></li>
-        <li><a href="about.asp">Shopping Cart</a></li>
-      </ul> */}
+     
     <TopPageComponent />
     <MiddlePageComponent />
     <ButtonComponent />
