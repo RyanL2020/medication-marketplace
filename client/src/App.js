@@ -9,8 +9,7 @@ import BottomPageComponent from './BottomPageComponent';
 function App() {
   return (
     
-       <body>    
-     
+      <body>    
     <TopPageComponent />
     <MiddlePageComponent />
     <ButtonComponent />
@@ -19,11 +18,11 @@ function App() {
     <ThirdPageComponent />
     <BottomPageComponent />
 
-   </body>
+    </body>
 
-   
 
-     
+
+
 
       
     
